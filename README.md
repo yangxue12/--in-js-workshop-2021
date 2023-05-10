@@ -32,7 +32,7 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 ### 主观与讨论题内容
 
----
+---本次实验，我们学习了如何使用github，以及它fork的使用。再次熟悉了javascript的基础语法，以及其他的一些用法，如const。其次我们掌握了比特币区块的构成方式，了解了区块的关联方式和关系。其中最重要的是最长链原则，也是困扰我们很久的问题。不同的组员用了不同的方法，最后我们选择了较为简洁的一种方法。
 
 
 
