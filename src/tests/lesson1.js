@@ -12,6 +12,7 @@ const main = () => {
   // 设置创世区块
   blockchain.genesis = genesisBlock
 
+
   // 构建区块
   var newBlock = new Block(
     blockchain,
@@ -20,8 +21,8 @@ const main = () => {
     sha256(new Date().getTime().toString()).toString(),
   )
 
-  blockchain.blocks[newBlock.hash] = newBlock
-
+  //blockchain.blocks[newBlock.hash] = newBlock
+blockchain.blocks.set(newBlock.hash,newBlock)
   var nextBlock = new Block(
     blockchain,
     newBlock.hash,
@@ -37,11 +38,12 @@ const main = () => {
   )
 
   // 添加两个区块高度为 2  的的竞争区块
-  blockchain.blocks[nextBlock.hash] = nextBlock
-  blockchain.blocks[nextCompetitionBlock.hash] = nextCompetitionBlock
-
+  //blockchain.blocks[nextBlock.hash] = nextBlock
+  blockchain.blocks.set(nextBlock.hash,nextBlock)
+  //blockchain.blocks[nextCompetitionBlock.hash] = nextCompetitionBlock
+  blockchain.blocks.set(nextCompetitionBlock.hash,nextCompetitionBlock)
   let longestChain = blockchain.longestChain()
-
+  console.log("第一次",longestChain)
   console.assert(longestChain.length == 2, 'Block height should be 2')
 
   var thirdBlock = new Block(
@@ -51,9 +53,10 @@ const main = () => {
     sha256(new Date().getTime().toString()).toString(),
   )
 
-  blockchain.blocks[thirdBlock.hash] = thirdBlock
-
+  //blockchain.blocks[thirdBlock.hash] = thirdBlock
+  blockchain.blocks.set(thirdBlock.hash,thirdBlock)
   longestChain = blockchain.longestChain()
+  console.log("第二次",longestChain)
 
   // 区块检查
   console.assert(longestChain.length == 3, 'Block height should be 2')

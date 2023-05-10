@@ -2,15 +2,16 @@
 
 ## 小组成员
 
-- 2021xxxx-姓名 （组长）
-- 2021xxxx-姓名
-- 2021xxxx-姓名
-- 2021xxxx-姓名
+- 2021131129-杨雪 （组长）
+- 2021131128-黄培霞
+- 2021131131-曾炜家
+- 2021131124-邢莎莎
+- 2021131125-钱奕蓉
 
 
 ## 代码仓库链接
 
-https://github.com/caosbad/blockchain-in-js-workshop-2021(示例用，请根据自身的仓库替换)
+https://github.com/yangxue12/--in-js-workshop-2021
 
 
 
@@ -23,7 +24,7 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 
 ### 代码截图
-
+链接: https://pan.baidu.com/s/1pmyXm0HV0mLhmhGDk6HmCg?pwd=f8vs 提取码: f8vs
 > 将截图上传至网盘，放入链接即可
 
 ![](链接)
