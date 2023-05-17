@@ -48,14 +48,17 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 > 将截图上传至网盘，放入链接即可
 
-![](链接)
+链接: https://pan.baidu.com/s/184apZXl6K27oegYH_u9X5g?pwd=s86p 提取码: s86p
 
 
 ### 主观与讨论题内容
 
 
 
----
+---本次实验了解了比特币区块生成的逻辑，了解了pow的原理以及原因，hash函数与挖矿nonce
+pow的优势：去中心化；安全性高
+pow的缺点：消耗大量的电力，需要强大而能耗高的硬件设备来计算；网络性能低；算力可能会集中
+如何提高效率：提高硬件，矿池的使用……
 
 
 ## 第三课代码
