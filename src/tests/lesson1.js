@@ -12,6 +12,7 @@ const main = () => {
   // 设置创世区块
   blockchain.genesis = genesisBlock
 
+
   // 构建区块
   let newBlock = new Block(
     blockchain,
@@ -42,9 +43,8 @@ const main = () => {
   blockchain.blocks.set(nextBlock.hash,nextBlock)
   //blockchain.blocks[nextCompetitionBlock.hash] = nextCompetitionBlock
   blockchain.blocks.set(nextCompetitionBlock.hash,nextCompetitionBlock)
-
   let longestChain = blockchain.longestChain()
-
+  console.log("第一次",longestChain)
   console.assert(longestChain.length == 2, 'Block height should be 2')
 
   let thirdBlock = new Block(
@@ -58,6 +58,7 @@ const main = () => {
   blockchain.blocks.set(thirdBlock.hash,thirdBlock)
   
   longestChain = blockchain.longestChain()
+  console.log("第二次",longestChain)
 
   // 区块检查
   console.assert(longestChain.length == 3, 'Block height should be 2')
