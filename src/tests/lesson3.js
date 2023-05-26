@@ -70,6 +70,7 @@ const main = () => {
 
   longestChain = blockchain.longestChain()
 
+
   // 区块检查
   console.assert(longestChain.length == 3, 'Block height should be 2')
   console.assert(
@@ -97,5 +98,6 @@ const main = () => {
     'Error: miner should got BTC',
   )
 }
+
 
 main()

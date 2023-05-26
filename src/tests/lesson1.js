@@ -20,7 +20,8 @@ const main = () => {
     sha256(new Date().getTime().toString()).toString(),
   )
 
-  blockchain.blocks[newBlock.hash] = newBlock
+  //blockchain.blocks[newBlock.hash] = newBlock
+  blockchain.blocks.set(newBlock.hash,newBlock)
 
   let nextBlock = new Block(
     blockchain,
@@ -37,8 +38,10 @@ const main = () => {
   )
 
   // 添加两个区块高度为 2  的的竞争区块
-  blockchain.blocks[nextBlock.hash] = nextBlock
-  blockchain.blocks[nextCompetitionBlock.hash] = nextCompetitionBlock
+  //blockchain.blocks[nextBlock.hash] = nextBlock
+  blockchain.blocks.set(nextBlock.hash,nextBlock)
+  //blockchain.blocks[nextCompetitionBlock.hash] = nextCompetitionBlock
+  blockchain.blocks.set(nextCompetitionBlock.hash,nextCompetitionBlock)
 
   let longestChain = blockchain.longestChain()
 
@@ -51,8 +54,9 @@ const main = () => {
     sha256(new Date().getTime().toString()).toString(),
   )
 
-  blockchain.blocks[thirdBlock.hash] = thirdBlock
-
+  //blockchain.blocks[thirdBlock.hash] = thirdBlock
+  blockchain.blocks.set(thirdBlock.hash,thirdBlock)
+  
   longestChain = blockchain.longestChain()
 
   // 区块检查
