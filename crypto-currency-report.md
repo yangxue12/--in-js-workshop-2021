@@ -2,15 +2,16 @@
 
 ## 小组成员
 
-- 2021xxxx-姓名 （组长）
-- 2021xxxx-姓名
-- 2021xxxx-姓名
-- 2021xxxx-姓名
+- 2021131129-杨雪 （组长）
+- 2021131131-曾炜镓
+- 2021131128-黄培霞
+- 2021131124-邢莎莎
+- 2021131125-钱奕蓉
 
 
 ## 代码仓库链接
 
-https://github.com/caosbad/blockchain-in-js-workshop-2021(示例用，请根据自身的仓库替换)
+hhttps://github.com/yangxue12/--in-js-workshop-2021
 
 
 
