@@ -20,7 +20,7 @@ hhttps://github.com/yangxue12/--in-js-workshop-2021
 
 ### 代码 commint 地址
 
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+https://github.com/yangxue12/--in-js-workshop-2021/commit/e11c28ca534f0b5569d89a455b2611b13eb6e63a
 
 
 ### 代码截图
@@ -48,10 +48,22 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 > 将截图上传至网盘，放入链接即可
 
-![](链接)
+链接: https://pan.baidu.com/s/1z8_QE6mMoV8uOxpfsJCBiA?pwd=zkmr 提取码: zkmr
 
 
 ### 主观与讨论题内容
+优点：
+查询效率高：字典树可以显著减少查询时的比较次数和时间复杂度，提高查询效率。
+插入和删除效率高：插入和删除操作仅需要遍历字符串长度的次数，而不是整个字典树的高度。
+可以快速找到具有相同前缀的所有字符串：这使得字典树很适合用于自动补全等功能。
+可以对字符串进行前缀匹配：在字典树上搜索一个字符串的前缀时，只需要遍历与前缀对应的分支即可，不需要遍历整个字典树。
+缺点：
+空间消耗大：字典树的空间消耗比较大，因此在处理大量短字符串时，可能会导致存储资源不足的问题。
+构建时间复杂度高：在构建字典树的过程中，需要不断地插入字符串，因此时间复杂度比较高。
+字母扩展为字母和数字的形式：
+可以将每个节点的 children 属性扩展为一个更大的对象，包含所有可能的字符（包括字母和数字）。
+如何提高查询效率：
+可以将没有分岔的字母压缩在一起，将来若有不一样的加入则可以拆分开。
 
 ---
 
