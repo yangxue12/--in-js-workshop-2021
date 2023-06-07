@@ -26,13 +26,12 @@ https://github.com/yangxue12/--in-js-workshop-2021/commit/e11c28ca534f0b5569d89a
 ### 代码截图
 
 > 将截图上传至网盘，放入链接即可
-
-![](链接)
+链接: https://pan.baidu.com/s/18v_rRJcmK-JDBffi1Y8eqQ?pwd=5nxv 提取码: 5nxv
 
 
 ### 主观与讨论题内容
 
----
+---本次实验室默克尔树，是通过不断hash到根结点，这样防止了篡改。
 
 
 
@@ -41,7 +40,7 @@ https://github.com/yangxue12/--in-js-workshop-2021/commit/e11c28ca534f0b5569d89a
 
 ### 代码 commint 地址
 
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+https://github.com/yangxue12/--in-js-workshop-2021/commit/f3fdc4f8f9a00c4578dcc92574dfbc70683386dd
 
 
 ### 代码截图
@@ -78,7 +77,7 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 ### 代码截图
 
-> 将截图上传至网盘，放入链接即可
+链接: https://pan.baidu.com/s/1AcboJI7c8OG7TaLKspDePQ?pwd=hi6s 提取码: hi6s
 
 ![](链接)
 
@@ -87,4 +86,6 @@ https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d8
 
 
 
----
+---以太坊使用了MPT来实现账户和存储状态的永久存储。MPT是一种数据结构，它是基于字典树、红黑树和Merkle Tree的改进。 它的目的是提供一个高效，紧凑，强大和安全的状态存储机制。与传统的字典树不同，MPT使用路径压缩来减少存储空间的占用。 在MPT中，所有的叶节点都在同一层级，并有一个对应的256位哈希值，如果某个叶节点改变，它上面所有的节点都需要重新计算哈希值。这使得MPT成为了一个完美的数据结构，可以用于存储和验证区块链状态数据。
+通过使用路径压缩，MPT可以在维护状态数据时节省很多空间。这是因为它将具有相同前缀的键值对组合在一起，以大大减少存储空间的需求。此外，MPT还使用哈希值来验证数据的完整性，这对于保证数据的安全性非常重要。
+MPT的核心问题是解决状态存储的高效性和安全性之间的平衡。在保证数据的正确性和完整性的同时，尽可能地减少存储空间的使用，以提高存储效率。 MPT的设计使得以太坊可以轻松地管理大量复杂的状态数据，而不会受到任何性能或安全方面的影响。
