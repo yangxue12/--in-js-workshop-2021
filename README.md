@@ -66,7 +66,7 @@ pow的缺点：消耗大量的电力，需要强大而能耗高的硬件设备�
 
 ### 代码 commint 地址
 
-https://github.com/CUITBlockchain/blockchain-in-js-workshop-2021/commit/25f3a0d83a9fff2b4514c5503f470df939d0c2af
+https://github.com/yangxue12/--in-js-workshop-2021/commit/c45cd8028ac64e73a51b1b56f41ae570f679d41a
 
 
 ### 代码截图
