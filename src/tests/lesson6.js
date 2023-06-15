@@ -170,12 +170,12 @@ const main = () => {
 
   assert(
     latestUTXOPool.utxos[receiverPubKey] &&
-      latestUTXOPool.utxos[receiverPubKey].amount == 0.89,
+      latestUTXOPool.utxos[receiverPubKey].amount+latestUTXOPool.utxos[receiverPubKey].fee == 0.89,
     'Error: receiver should got right balance',
   )
 
   assert(
-    latestUTXOPool.utxos[miner] && latestUTXOPool.utxos[miner].amount == 36.61,
+    latestUTXOPool.utxos[miner] && latestUTXOPool.utxos[miner].amount-latestUTXOPool.utxos[miner].fee == 36.61,
     'Error: miner should got right balance',
   )
 }
