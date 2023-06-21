@@ -58,7 +58,7 @@ https://github.com/yangxue12/--in-js-workshop-2021/commit/7a3e2e3527f6aac20ef8a2
 ---本次实验了解了比特币区块生成的逻辑，了解了pow的原理以及原因，hash函数与挖矿nonce
 pow的优势：去中心化；安全性高
 pow的缺点：消耗大量的电力，需要强大而能耗高的硬件设备来计算；网络性能低；算力可能会集中
-如何提高效率：提高硬件，矿池的使用……
+如何提高效率：提高硬件，优化软件,矿池的使用选择……
 
 
 ## 第三课代码
@@ -168,7 +168,10 @@ https://github.com/yangxue12/--in-js-workshop-2021/commit/ae3706314f30420aa5dbdd
 
 ## 结课报告
 
+### 代码 commint 地址
+https://github.com/yangxue12/--in-js-workshop-2021/commit/45b72c9cd30fa09f634856ecb9a311e4012f4495
 
+### 代码截图
 
-
-
+> 将截图上传至网盘，放入链接即可
+链接: https://pan.baidu.com/s/1aSqffZV2fjNXJyUlc1htiA?pwd=hvvn 提取码: hvvn
