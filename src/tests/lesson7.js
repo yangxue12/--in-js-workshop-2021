@@ -187,7 +187,6 @@ const main = () => {
     latestUTXOPool.utxos[miner] && latestUTXOPool.utxos[miner].amount == 36.61,
     'Error: miner should got right balance',
   )
-
   log(latestUTXOPool)
 }
 
